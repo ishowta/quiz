@@ -3,6 +3,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+#include "systemwindow.h"
+#include "ui_systemwindow.h"
+
 MainWindow::MainWindow(QWidget *parent) :
     QStackedWidget(parent),
     ui(new Ui::MainWindow)

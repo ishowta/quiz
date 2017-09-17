@@ -63,7 +63,27 @@
            <item>
             <widget class="QSpinBox" name="team1_playerCount">
              <property name="minimum">
-              <number>1</number>
+              <number>0</number>
+             </property>
+             <property name="value">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_40">
+             <property name="text">
+              <string>得点</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="team1_point">
+             <property name="minimum">
+              <number>-999</number>
+             </property>
+             <property name="maximum">
+              <number>999</number>
              </property>
             </widget>
            </item>
@@ -84,88 +104,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QGridLayout" name="gridLayout_2">
-           <item row="0" column="0">
-            <widget class="QLabel" name="label_5">
-             <property name="text">
-              <string>Player1</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="4">
-            <widget class="QLabel" name="label_7">
-             <property name="text">
-              <string>Player3</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="1">
-            <widget class="QLineEdit" name="team1_player1"/>
-           </item>
-           <item row="0" column="6">
-            <widget class="QLabel" name="label_8">
-             <property name="text">
-              <string>Player4</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="2">
-            <widget class="QLabel" name="label_6">
-             <property name="text">
-              <string>Player2</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="3">
-            <widget class="QLineEdit" name="team1_player2"/>
-           </item>
-           <item row="0" column="5">
-            <widget class="QLineEdit" name="team1_player3"/>
-           </item>
-           <item row="0" column="7">
-            <widget class="QLineEdit" name="team1_player4"/>
-           </item>
-           <item row="1" column="7">
-            <widget class="QLineEdit" name="team1_player8"/>
-           </item>
-           <item row="1" column="0">
-            <widget class="QLabel" name="label_9">
-             <property name="text">
-              <string>Player5</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="2">
-            <widget class="QLabel" name="label_10">
-             <property name="text">
-              <string>Player6</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="4">
-            <widget class="QLabel" name="label_11">
-             <property name="text">
-              <string>Player7</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="6">
-            <widget class="QLabel" name="label_12">
-             <property name="text">
-              <string>Player8</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="1">
-            <widget class="QLineEdit" name="team1_player5"/>
-           </item>
-           <item row="1" column="3">
-            <widget class="QLineEdit" name="team1_player6"/>
-           </item>
-           <item row="1" column="5">
-            <widget class="QLineEdit" name="team1_player7"/>
-           </item>
-          </layout>
+          <layout class="QGridLayout" name="team1_area"/>
          </item>
          <item>
           <widget class="QLabel" name="label_2">
@@ -184,7 +123,28 @@
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="team2_playerCount"/>
+            <widget class="QSpinBox" name="team2_playerCount">
+             <property name="value">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_41">
+             <property name="text">
+              <string>得点</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="team2_point">
+             <property name="minimum">
+              <number>-999</number>
+             </property>
+             <property name="maximum">
+              <number>999</number>
+             </property>
+            </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_22">
@@ -203,88 +163,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QGridLayout" name="gridLayout_3">
-           <item row="0" column="6">
-            <widget class="QLabel" name="label_15">
-             <property name="text">
-              <string>Player4</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="3">
-            <widget class="QLineEdit" name="team2_player2"/>
-           </item>
-           <item row="0" column="5">
-            <widget class="QLineEdit" name="team2_player3"/>
-           </item>
-           <item row="0" column="7">
-            <widget class="QLineEdit" name="team2_player4"/>
-           </item>
-           <item row="1" column="6">
-            <widget class="QLabel" name="label_20">
-             <property name="text">
-              <string>Player8</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="7">
-            <widget class="QLineEdit" name="team2_player8"/>
-           </item>
-           <item row="1" column="2">
-            <widget class="QLabel" name="label_18">
-             <property name="text">
-              <string>Player6</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="3">
-            <widget class="QLineEdit" name="team2_player6"/>
-           </item>
-           <item row="0" column="1">
-            <widget class="QLineEdit" name="team2_player1"/>
-           </item>
-           <item row="1" column="1">
-            <widget class="QLineEdit" name="team2_player5"/>
-           </item>
-           <item row="0" column="2">
-            <widget class="QLabel" name="label_16">
-             <property name="text">
-              <string>Player2</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="4">
-            <widget class="QLabel" name="label_19">
-             <property name="text">
-              <string>Player7</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="4">
-            <widget class="QLabel" name="label_14">
-             <property name="text">
-              <string>Player3</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="0">
-            <widget class="QLabel" name="label_17">
-             <property name="text">
-              <string>Player5</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="5">
-            <widget class="QLineEdit" name="team2_player7"/>
-           </item>
-           <item row="0" column="0">
-            <widget class="QLabel" name="label_13">
-             <property name="text">
-              <string>Player1</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
+          <layout class="QGridLayout" name="team2_area"/>
          </item>
         </layout>
        </item>
@@ -339,168 +218,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QGridLayout" name="gridLayout_4">
-           <item row="0" column="6">
-            <widget class="QLabel" name="label_24">
-             <property name="text">
-              <string>Player4</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="0">
-            <widget class="QLabel" name="label_30">
-             <property name="text">
-              <string>Player5</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="5">
-            <widget class="QLineEdit" name="player7"/>
-           </item>
-           <item row="1" column="1">
-            <widget class="QLineEdit" name="player5"/>
-           </item>
-           <item row="1" column="2">
-            <widget class="QLabel" name="label_26">
-             <property name="text">
-              <string>Player6</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="3">
-            <widget class="QLineEdit" name="player6"/>
-           </item>
-           <item row="1" column="4">
-            <widget class="QLabel" name="label_28">
-             <property name="text">
-              <string>Player7</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="2">
-            <widget class="QLabel" name="label_27">
-             <property name="text">
-              <string>Player2</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="5">
-            <widget class="QLineEdit" name="player3"/>
-           </item>
-           <item row="1" column="7">
-            <widget class="QLineEdit" name="player8"/>
-           </item>
-           <item row="0" column="7">
-            <widget class="QLineEdit" name="player4"/>
-           </item>
-           <item row="0" column="1">
-            <widget class="QLineEdit" name="player1"/>
-           </item>
-           <item row="0" column="3">
-            <widget class="QLineEdit" name="player2"/>
-           </item>
-           <item row="0" column="4">
-            <widget class="QLabel" name="label_29">
-             <property name="text">
-              <string>Player3</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="0">
-            <widget class="QLabel" name="label_32">
-             <property name="text">
-              <string>Player9</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="0">
-            <widget class="QLabel" name="label_31">
-             <property name="text">
-              <string>Player1</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="6">
-            <widget class="QLabel" name="label_25">
-             <property name="text">
-              <string>Player8</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="0">
-            <widget class="QLabel" name="label_33">
-             <property name="text">
-              <string>Player13</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="2">
-            <widget class="QLabel" name="label_34">
-             <property name="text">
-              <string>Player10</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="4">
-            <widget class="QLabel" name="label_35">
-             <property name="text">
-              <string>Player11</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="6">
-            <widget class="QLabel" name="label_36">
-             <property name="text">
-              <string>Player12</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="6">
-            <widget class="QLabel" name="label_37">
-             <property name="text">
-              <string>Player16</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="4">
-            <widget class="QLabel" name="label_38">
-             <property name="text">
-              <string>Player15</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="2">
-            <widget class="QLabel" name="label_39">
-             <property name="text">
-              <string>Player14</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="1">
-            <widget class="QLineEdit" name="player9"/>
-           </item>
-           <item row="2" column="3">
-            <widget class="QLineEdit" name="player10"/>
-           </item>
-           <item row="2" column="5">
-            <widget class="QLineEdit" name="player11"/>
-           </item>
-           <item row="2" column="7">
-            <widget class="QLineEdit" name="player12"/>
-           </item>
-           <item row="3" column="1">
-            <widget class="QLineEdit" name="player13"/>
-           </item>
-           <item row="3" column="3">
-            <widget class="QLineEdit" name="player14"/>
-           </item>
-           <item row="3" column="5">
-            <widget class="QLineEdit" name="player15"/>
-           </item>
-           <item row="3" column="7">
-            <widget class="QLineEdit" name="player16"/>
-           </item>
-          </layout>
+          <layout class="QGridLayout" name="gridLayout_4"/>
          </item>
         </layout>
        </item>
@@ -516,9 +234,19 @@
      <item row="0" column="4">
       <layout class="QVBoxLayout" name="verticalLayout_5">
        <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>得点リセット</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QRadioButton" name="mode1">
          <property name="text">
           <string>チーム点数表示（チーム戦）</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
          <attribute name="buttonGroup">
           <string notr="true">buttonGroup</string>
@@ -550,6 +278,9 @@
          <property name="text">
           <string>虫食い画像</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
        </item>
        <item>
@@ -557,6 +288,9 @@
          <property name="text">
           <string>逆書き漢字</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
        </item>
        <item>
@@ -564,6 +298,9 @@
          <property name="text">
           <string>ファイブボンバー</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
        </item>
        <item>
@@ -571,27 +308,15 @@
          <property name="text">
           <string>漢字多答</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
-       </item>
-       <item>
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
        </item>
       </layout>
      </item>
     </layout>
    </widget>
-   <zorder>gridLayoutWidget_4</zorder>
-   <zorder>verticalLayoutWidget_4</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -606,6 +331,25 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>isTeam</tabstop>
+  <tabstop>team1_playerCount</tabstop>
+  <tabstop>team1_point</tabstop>
+  <tabstop>team1_name</tabstop>
+  <tabstop>team2_playerCount</tabstop>
+  <tabstop>team2_point</tabstop>
+  <tabstop>team2_name</tabstop>
+  <tabstop>isIndividual</tabstop>
+  <tabstop>playerCount</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>mode1</tabstop>
+  <tabstop>mode2</tabstop>
+  <tabstop>mode3</tabstop>
+  <tabstop>mode4</tabstop>
+  <tabstop>mode5</tabstop>
+  <tabstop>mode6</tabstop>
+  <tabstop>mode7</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
  <buttongroups>

@@ -5,6 +5,7 @@
 
 namespace Ui {
 class MainWindow;
+class SystemWindow;
 }
 
 class MainWindow : public QStackedWidget
@@ -14,6 +15,9 @@ class MainWindow : public QStackedWidget
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    const Ui::MainWindow* getUi(){
+        return ui;
+    }
 
 private:
     Ui::MainWindow *ui;
