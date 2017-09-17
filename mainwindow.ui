@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QStackedWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1980</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StackedWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>6</number>
+  </property>
+  <widget class="QWidget" name="TeamPointPage">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1981</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="1">
+      <widget class="QLabel" name="TeamPointPage_Team2Name">
+       <property name="font">
+        <font>
+         <pointsize>72</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bチーム</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="TeamPointPage_Team1Point">
+       <property name="font">
+        <font>
+         <pointsize>500</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="TeamPointPage_Team1Name">
+       <property name="font">
+        <font>
+         <pointsize>72</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Aチーム</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="TeamPointPage_Team1Point_2">
+       <property name="font">
+        <font>
+         <pointsize>500</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="TeamMembersPointPage">
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1981</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="TeamMembersPointPage_Team1Name">
+         <property name="font">
+          <font>
+           <pointsize>72</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Aチーム</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="TeamMembersPointPage_Team1NameArea"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="TeamMembersPointPage_Team1PointArea"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="TeamMembersPointPage_Team2Name">
+         <property name="font">
+          <font>
+           <pointsize>72</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Bチーム</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="TeamMembersPointPage_Team2NameArea"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="TeamMembersPointPage_Team2PointArea"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="IndividualPointPage">
+   <widget class="QWidget" name="gridLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1981</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="IndividualPointPage_NameArea1"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="IndividualPointPage_PointArea1"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="IndividualPointPage_NameArea2"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="IndividualPointPage_PointArea2"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="WormEatingPage"/>
+  <widget class="QWidget" name="ReverseWritingPage"/>
+  <widget class="QWidget" name="FiveBomberPage"/>
+  <widget class="QWidget" name="KanjiMultiAnswersPage">
+   <widget class="QWidget" name="gridLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1981</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="KanjiMultiAnswersPageLayout"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
